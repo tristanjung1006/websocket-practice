@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752109893226",
+    "project_id": "websocket-study-4cd83",
+    "storage_bucket": "websocket-study-4cd83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752109893226:android:dee3c227a6d07cecca3c13",
+        "android_client_info": {
+          "package_name": "com.daemon.websocket_study"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOS1Y_y7Gys2gocyBBC3MaFrLS8wnfWRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
