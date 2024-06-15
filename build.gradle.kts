@@ -1,12 +1,19 @@
 buildscript {
     dependencies {
-        classpath("com.android.tools.build:gradle:8.1.0")
-        classpath("com.google.gms:google-services:4.4.1")
-        classpath("com.google.firebase:firebase-crashlytics-gradle:3.0.1")
+        classpath(libs.gradle.v810)
+        classpath(libs.google.services)
+        classpath(libs.firebase.crashlytics.gradle)
     }
 }
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.application") version "8.2.2" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.jvm) apply false
+    alias(libs.plugins.hilt) apply false
+    alias(libs.plugins.google.services) apply false
+    alias(libs.plugins.firebase.crashlytics) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.ksp) apply false
 }
